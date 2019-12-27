@@ -1,0 +1,29 @@
+{
+  "name": "gen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run build && node ./dist/index.js",
+    "example": "npm run build && node ./dist/example.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/highlight.js": "^9.12.3",
+    "@types/js-yaml": "^3.12.1",
+    "@types/marked": "^0.7.2",
+    "chalk": "^3.0.0",
+    "cheerio": "^1.0.0-rc.3",
+    "expression-eval": "^2.0.0",
+    "highlight.js": "^9.17.1",
+    "htmlparser2": "^4.0.0",
+    "js-yaml": "^3.13.1",
+    "jsdom": "^15.2.1",
+    "marked": "^0.8.0"
+  },
+  "devDependencies": {
+    "typescript": "^3.7.3"
+  }
+}
