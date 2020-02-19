@@ -1,7 +1,9 @@
 import { Generator } from "."
 import { Timer } from "./timer.class"
 
-const pages: { [key: string]: string } = {
+type Map = { [key: string]: string }
+
+const pages: Map = {
   'layout': `---
 title: Layout Title
 ---
@@ -64,7 +66,7 @@ data:
 
 const data: { [key: string]: Object } = {
   enums: {
-    colors: ['red', 'green', 'blue'],
+    colors: ['red', 'green', 'blue', 'orange', 'purple', 'yellow'],
     fruit: ['apple', 'banana', 'cherry']
   }
 }

@@ -45,7 +45,7 @@ var pages = {
 };
 var data = {
     enums: {
-        colors: ['red', 'green', 'blue'],
+        colors: ['red', 'green', 'blue', 'orange', 'purple', 'yellow'],
         fruit: ['apple', 'banana', 'cherry']
     }
 };

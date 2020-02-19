@@ -12,9 +12,9 @@ export function watch$<T>(
     cwd = process.cwd()
   } = options
 
-  return Observable.create((observer) => {
+  return Observable.create((observer: any) => {
     let watcher = watch(pattern, options)
-    let next = (type) => (name) => {
+    let next = (type: any) => (name: any) => {
       const path = name.replace(/\\/g, '/')
       const filename = basename(name)
       const ext = extname(filename)
