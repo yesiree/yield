@@ -20,7 +20,7 @@
     "highlight.js": "^9.17.1",
     "htmlparser2": "^4.0.0",
     "js-yaml": "^3.13.1",
-    "jsdom": "^15.2.1",
+    "jsdom": "^16.5.0",
     "marked": "^0.8.0"
   },
   "devDependencies": {
